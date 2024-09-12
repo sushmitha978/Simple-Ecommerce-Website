@@ -1,0 +1,201 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5; 
+    color: #333; 
+}
+
+header {
+    background-color: #FF0000; 
+    color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    color: #FF0000; 
+    background-color: #CC0000; 
+}
+
+.hero {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #FF0000; 
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for better fit */
+    text-decoration: none;
+    font-size: 1.1em; /* Adjust font size to fit */
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #CC0000;
+    color: #ffffff; 
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features-section, .categories-section, .products-section, .offers-section {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(206, 2, 2, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    transition: box-shadow 0.3s ease;
+}
+
+.features-section:hover, 
+.categories-section:hover, 
+.products-section:hover, 
+.offers-section:hover {
+    box-shadow: 0 6px 12px rgba(219, 17, 17, 0.2);
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666; 
+}
+
+.features, .categories, .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature, .category, .product, .testimonial {
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition */
+}
+
+.feature-icon, .category-image, .product-image, .testimonial-image, .offer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.features .feature, .categories .category, .products .product, .testimonials .testimonial {
+    flex: 1 1 250px;
+    max-width: 300px;
+}
+
+.categories .category {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categories .category:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.offer-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.products-section .product {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.products-section .product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product h3, .product p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #FF0000; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #CC0000; 
+}
+
+.footer p {
+    margin: 10px 0;
+}
